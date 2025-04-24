@@ -1,0 +1,81 @@
+@media (max-width:1000px) {
+    a{
+        color: #1c1d21;
+    }
+    .hero-heading{
+        font-size: 78px;
+        width: 700px;
+        line-height: 74px;
+    }
+    .hero-img{
+        height: 84vh;
+    }
+    .hero{
+        height: 92vh;
+    }
+    .intro-para{
+        /* padding-right: 200px; */
+        padding-left: 80px;
+        width: 420px;
+        font-size: 16px;
+    }
+    .heading{
+        padding-left: 80px;
+    }
+    .client-section{
+        padding: 40px 0;
+    }
+    .we{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "read"
+        "marketing"
+        "content"
+        "email"
+        "social"
+        "website"; 
+        grid-template-columns: 1fr;
+        padding: 80px;
+    }
+    .read, .marketing, .content, .email, .social, .website{
+        padding-right: 100px;
+        min-height: 180px ;
+    }
+    .c{
+        min-width: 460px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+    }
+    .do{
+        left: 40px;
+        text-align: center;
+        padding: 0;
+        font-size: 58px;
+    }
+    .read-more{
+        right: 40px;
+        bottom: 60px;
+    }
+    .more{
+        margin-right: 80px;
+    }
+    .l-s{
+        padding: 10px 0 6px 0;
+    }
+    .t{
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+    .project-b, .project-c{
+        padding-top: 0;
+        justify-content: center;
+    }
+    .project-a{
+        padding-bottom: 80px;
+    }
+    .rect{
+        width: 820px;
+        height: 460px;
+    }
+}
